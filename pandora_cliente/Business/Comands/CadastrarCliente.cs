@@ -10,7 +10,7 @@ namespace pandora_cliente.Business.Comands
     public class CadastrarCliente
     {
        
-        internal static void cadastro(APandoraDbContext context)
+        internal static void cadastro(APandoraDbContext context , Message message)
         {
             throw new NotImplementedException();
         }

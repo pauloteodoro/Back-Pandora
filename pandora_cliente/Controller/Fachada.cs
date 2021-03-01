@@ -30,7 +30,7 @@ namespace pandora_cliente.Controller
 
         public string salvarCadastroInicial(CadastrarCliente.Message message)
         {
-            CadastrarCliente.cadastro(_context);
+            CadastrarCliente.cadastro(_context , message);
 
             return "Cadastrado com sucesso";
         }

@@ -29,7 +29,7 @@ namespace pandora_cliente
         {
 
             services.AddDbContext<APandoraDbContext>(options =>
-                options.UseSqlServer("Server=LAPTOP-1G03V524\\SQLEXPRESS; Database=pandonra; Integrated Security=True;"));
+                options.UseSqlServer("Server=LAPTOP-1G03V524\\SQLEXPRESS; Database=PandoraDB; Integrated Security=True;"));
             services.AddControllers();
         }
 

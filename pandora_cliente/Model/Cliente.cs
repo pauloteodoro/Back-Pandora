@@ -14,6 +14,10 @@ namespace pandora_cliente.Model
 
         [Required]
         [MaxLength(200)]
+        public string Senha { get; set; }
+
+        [Required]
+        [MaxLength(200)]
         public string Email { get; set; }
 
         public int TipoClienteID { get; set; }
